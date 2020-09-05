@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://172.29.57.97:3306/springDemo"
+    username: "cdauser"
+    password: "cdauser"
+    driverClassName: com.mysql.jdbc.Driver
+    validation-query: select 1
